@@ -1,6 +1,8 @@
-# MyFirstApp
+# Angular Tour of Transformers
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+This project was created as a dummy project for the Speaking About - Angular Event @Castelo Branco 2019
+
+This project uses Firebase as the persistence Database and API for Login/Register.
 
 ## Development server
 
