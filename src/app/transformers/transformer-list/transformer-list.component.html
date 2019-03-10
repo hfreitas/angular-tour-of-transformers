@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col-xs-12">
+    <button class="btn btn-success" routerLink="new">New transformer</button>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <app-transformer-item
+      *ngFor="let transformerEl of transformers; let i = index"
+      [transformer]="transformerEl"
+      [index]="i"></app-transformer-item>
+  </div>
+</div>
+

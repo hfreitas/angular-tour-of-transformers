@@ -1,0 +1,47 @@
+<div class="row">
+  <div class="col-xs-12">
+    <img
+      [src]="transformer.imagePath"
+      alt="{{ transformer.name }}"
+      class="img-responsive"
+      style="max-height: 300px;">
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h1>{{ transformer.name }}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <div
+      class="btn-group"
+      appDropdown>
+      <button
+        type="button"
+        class="btn btn-primary dropdown-toggle">
+        Manage Transformer <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a style="cursor: pointer;" (click)="onEditTransformer()">Edit Transformer</a></li>
+        <li><a style="cursor: pointer;" (click)="onDeleteTransformer()">Delete Transformer</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    {{ transformer.description }}
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <ul class="list-group">
+      <li
+        class="list-group-item"
+        *ngFor="let expression of transformer.expressions">
+        {{ expression.title }} - {{ expression.description }}
+      </li>
+    </ul>
+  </div>
+</div>
