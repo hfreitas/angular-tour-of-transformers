@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 
-import { Transformer } from '../transformer.model';
-import { TransformerService } from '../transformer.service';
+import { Transformer } from '../../transformer.model';
+import { TransformerService } from '../../transformer.service';
 
 @Component({
   selector: 'app-transformer-detail',

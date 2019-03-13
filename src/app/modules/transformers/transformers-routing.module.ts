@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { TransformersComponent } from './components/transformers.component';
+import { TransformerStartComponent } from './components/transformer-start/transformer-start.component';
+import { TransformerEditComponent } from './components/transformer-edit/transformer-edit.component';
+import { TransformerDetailComponent } from './components/transformer-detail/transformer-detail.component';
+import { AuthGuard } from 'src/app/auth/auth-guard.service';
 
-import { AuthGuard } from '../auth/auth-guard.service';
-import { TransformersComponent } from './transformers.component';
-import { TransformerStartComponent } from './transformer-start/transformer-start.component';
-import { TransformerEditComponent } from './transformer-edit/transformer-edit.component';
-import { TransformerDetailComponent } from './transformer-detail/transformer-detail.component';
+
 
 const transformersRoutes: Routes = [
   { path: '', component: TransformersComponent, children: [

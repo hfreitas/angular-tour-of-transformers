@@ -4,8 +4,8 @@ import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
 import 'rxjs/Rx';
 
-import { TransformerService } from '../transformers/transformer.service';
-import { Transformer } from '../transformers/transformer.model';
+import { TransformerService } from '../modules/transformers/transformer.service';
+import { Transformer } from '../modules/transformers/transformer.model';
 import { AuthService } from '../auth/auth.service';
 
 @Injectable()

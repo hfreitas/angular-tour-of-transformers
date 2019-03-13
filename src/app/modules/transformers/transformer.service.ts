@@ -2,7 +2,8 @@ import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs';
 
 import { Transformer } from './transformer.model';
-import { Expression } from '../shared/expression.model';
+import { Expression } from 'src/app/shared/expression.model';
+
 
 @Injectable()
 export class TransformerService {

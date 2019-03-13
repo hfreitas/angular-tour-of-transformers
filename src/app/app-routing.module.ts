@@ -5,7 +5,7 @@ import { HomeComponent } from './core/home/home.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'transformers', loadChildren: './transformers/transformers.module#TransformersModule'},
+  { path: 'transformers', loadChildren: './modules/transformers/transformers.module#TransformersModule'},
 ];
 
 @NgModule({

@@ -6,7 +6,7 @@ import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module';
 import { AuthService } from '../auth/auth.service';
 import { DataStorageService } from '../shared/data-storage.service';
-import { TransformerService } from '../transformers/transformer.service';
+import { TransformerService } from '../modules/transformers/transformer.service';
 
 @NgModule({
   declarations: [

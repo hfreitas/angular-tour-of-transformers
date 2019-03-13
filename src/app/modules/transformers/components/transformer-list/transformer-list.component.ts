@@ -1,8 +1,9 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { TransformerService } from '../transformer.service';
-import { Transformer } from '../transformer.model';
+import { TransformerService } from '../../transformer.service';
+import { Transformer } from '../../transformer.model';
+
 
 @Component({
   selector: 'app-transformer-list',

@@ -1,6 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-
-import { Transformer } from '../../transformer.model';
+import { Transformer } from '../../../transformer.model';
 
 @Component({
   selector: 'app-transformer-item',
